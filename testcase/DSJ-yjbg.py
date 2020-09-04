@@ -10,7 +10,7 @@ class DSJ(unittest.TestCase):
     driver = webdriver.Chrome()
     def setUp(self):
         self.driver.get('http://47.103.3.209/admin/detector-list')
-    def test_fzgl(self):
+    def test_yjbg(self):
         deng_lu = Deng_lu(self.driver)
         deng_lu.denglu()
         sleep(5)
